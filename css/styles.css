@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*site wide */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+/*section*/
+section {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    padding-top:2%;
+}
+
+section h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+section h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+section a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+section a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.smallfont {
+    font-size: 0.75em !important;
+}
+
+/*home section*/
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    z-index: -1000;
+}
+
+#Home {
+    height: 700px;
+    text-align: left !important;
+    color: #ffffff;
+}
+
+#Home h1 {
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(10px 10px 10px #222);
+    text-align: left !important;
+}
+
+#Home h2 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1px;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(10px 10px 10px #222);
+    text-align: left !important;
+}
+
+/*blog section */
+#Blog {
+    background-color: rgba(255,255,255,1);
+}
+
+#blogdetails img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*video section */
+#Video {
+    background-color: rgba(255,255,255,1);
+}
+
+/* subscribe */
+#Subscribe {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding-top: -2%;
+    padding-bottom: -2%;
+}
+
+#Subscribe h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#Subscribe p {
+    font-size: 1em;
+}
+
+/*photo section */
+#Photo {
+    background-color: rgba(0,0,0,1);
+    color: #ffffff;
+}
+
+.photo {
+    width: 100%;
+}
+
+.caption {
+    padding: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: left !important;
+}
+
+.photolink {
+    filter: grayscale(100%);
+}
+
+.photolink:hover {
+    filter: none;
+    transition: 1s ease;
+}
+
+/* shadow */
+.shadow {
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+}
+
+/* view more */
+.viewmore {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-align: left !important;
+}
+
+.viewmorelink {
+    text-decoration: none;
+}
+
+.viewmorelink:hover {
+    text-decoration: underline;
+}
+
+/* social media and days countdown */
+.social {
+    margin-top: 12%;
+    z-index: 100;
+    margin-left: 92%;
+}
+
+.black {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.5em;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 500px;
+    margin-left: 90%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .black, .social {
+        margin-left: 80%;
+    }
+}
+
+.fab {
+    text-decoration: none;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 2em;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.daysaway {
+    font-size: 0.75em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fab:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* admin */
+.block {
+    width: 100%;
+    height: 250px;
+    padding: 2%;
+    margin: 4%;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+.block:hover {
+    background-color: #e6f2ff;
+}
+
+.far, .fas{
+    font-size: 4em;
+}
+
+/*table */
+.table {
+    text-align: left !important;
+}
