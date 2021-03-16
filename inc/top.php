@@ -24,6 +24,6 @@ $days_travelled = $secs / 86400;
 <div class="black fixed-top shadow" data-aos="fade-left">
     <p>
         <span class="daysaway">Days Travelled</span>
-        <span class="number"><?php echo $days_travelled; ?></span>
+        <span class="number"><?php echo number_format($days_travelled); ?></span>
     </p>
 </div>
